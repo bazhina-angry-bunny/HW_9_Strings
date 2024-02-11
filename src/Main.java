@@ -14,13 +14,15 @@ public class Main {
         }
         {
             String firstName = "Семён";
-            String middleName = "Семёнович";
-            String lastName = "Иванов";
+            String middleName = "СЁмёнович";
+            String lastName = "ИВАНОВ-Митин";
             String fullName = lastName + " " + firstName + " " + middleName;
-            String fullNameNew = fullName.replace("ё","е");
-            String upperCase = fullNameNew.toUpperCase();
+            fullName = fullName.replace("ё","е");
+            fullName = fullName.replace("Ё","Е");
+            String upperCase = fullName.toUpperCase();
             System.out.println("Ф. И. О. сотрудника — " + upperCase);
         }
+
 
     }
 }
