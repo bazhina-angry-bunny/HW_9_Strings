@@ -10,7 +10,7 @@ public class Main {
 
             String upperCase = fullName;
             String result = upperCase.toUpperCase();
-            System.out.println("Ф. И. О. сотрудника — " + result);
+            System.out.println("Ф. И. О. сотрудника для заполнения отчета — " + result);
         }
         {
             String firstName = "Семён";
